@@ -1,0 +1,50 @@
+group 'org.ch'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'war'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+dependencies {
+    compile 'com.google.guava:guava:17.0'
+    compile ('com.alibaba:fastjson:1.2.29') {
+        force = true
+    }
+    compile('org.apache.thrift:libfb303:0.8.0') {
+        force = true
+    }
+    compile('org.apache.thrift:libthrift:0.8.0') {
+        force = true
+    }
+    compile('commons-collections:commons-collections:3.2.2') {
+        force = true
+    }
+    compile('org.apache.commons:commons-collections4:4.1') {
+        force = true
+    }
+    compile('org.scala-lang:scala-library:2.10.1'){
+        force = true
+    }
+    compile('org.apache.logging.log4j:log4j-api:2.7') {
+        force = true
+    }
+    compile('org.apache.logging.log4j:log4j-core:2.7') {
+        force = true
+    }
+    compile('org.slf4j:slf4j-api:1.7.6') {
+        force = true
+    }
+
+
+    compile('com.netflix.hystrix:hystrix-core:1.5.12') {
+        force = true
+    }
+
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
