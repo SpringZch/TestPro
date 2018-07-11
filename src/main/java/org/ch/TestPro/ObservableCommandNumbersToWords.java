@@ -45,7 +45,6 @@ public class ObservableCommandNumbersToWords extends HystrixObservableCommand<Ob
         System.out.println("construct! thread:" + Thread.currentThread().getName());
         return Observable.from(numbers).map(new Func1<Integer, NumberWord>()
         {
-
             public NumberWord call(final Integer number)
             {
                 System.out.println("call! thread:" + Thread.currentThread().getName());
