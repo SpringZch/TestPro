@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb019511-bda9-4bd1-a7c5-c697a7ae6007" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -1039,7 +1036,7 @@
       <updated>1531129587400</updated>
       <workItem from="1531129592278" duration="1262000" />
       <workItem from="1531140604473" duration="14885000" />
-      <workItem from="1531538790458" duration="949000" />
+      <workItem from="1531538790458" duration="1870000" />
     </task>
     <servers />
   </component>
@@ -1055,7 +1052,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17096000" />
+    <option name="totallyTimeSpent" value="18017000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="726" extended-state="0" />
